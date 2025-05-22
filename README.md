@@ -5,6 +5,7 @@ El sistema de “Gestión de Turnos Médicos” permite a pacientes, médicos y 
 Imagen:
 ![caso uso (2)](https://github.com/user-attachments/assets/f99b71c5-d3ed-4ac5-832d-94e033def7b0)
 
+
 Descripción y justificación de relaciones:
 
 •	Actores principales:
@@ -19,6 +20,7 @@ o	Interacción con Sistemas Externos se realiza para sincronizar agendas y proce
 Diagrama de clases
 Imagen:
 ![diagrama clases](https://github.com/user-attachments/assets/0e1e9c70-77fd-494c-8538-3e6ffb1d22c8)
+
 
 Justificación profunda de patrones utilizados:
 •	Patrón Adapter:
@@ -37,7 +39,9 @@ Diagrama de implementación
 Imagen:
 ![despliegue](https://github.com/user-attachments/assets/54c9001c-d73d-487d-b66b-499a826aca93)
 
+
 Decisiones técnicas clave:
+
 •	Arquitectura en capas (layered architecture):
 o	Separación clara entre presentación (cliente), lógica de negocio (API Gestión de Turnos), y datos (servidor de base de datos).
 o	Mejora mantenibilidad, reutilización y escalabilidad.
@@ -52,6 +56,7 @@ o	Facilitan el desacoplamiento con terceros (pagos, notificaciones), permitiendo
 
 
 Reflexiones finales del modelado
+
 Este sistema presenta un modelado estructurado, destacándose por:
 •	Una separación de responsabilidades clara en los tres niveles: presentación, lógica y datos.
 •	El uso de patrones de diseño adecuados, que mejoran la flexibilidad, mantenibilidad y extensibilidad del sistema.
