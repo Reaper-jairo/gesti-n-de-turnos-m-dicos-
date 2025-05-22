@@ -6,9 +6,9 @@ Imagen:
 ![caso uso (2)](https://github.com/user-attachments/assets/f99b71c5-d3ed-4ac5-832d-94e033def7b0)
 
 
-*Descripción y justificación de relaciones:*
+**Descripción y justificación de relaciones:**
 
-•	*Actores principales:*
+•	Actores principales:
 
 o	Paciente: Puede registrarse, agendar turnos, cancelar turnos, solicitar recordatorios, consultar historial y realizar pagos.
 
@@ -25,12 +25,12 @@ o	<<extend>>: Representa funcionalidades opcionales o extendidas según contexto
 o	Interacción con Sistemas Externos se realiza para sincronizar agendas y procesar pagos, extendiendo así la funcionalidad del sistema central sin recargarlo internamente.
 ##
 
-*Diagrama de clases*
+**Diagrama de clases**
 Imagen:
 ![diagrama clases](https://github.com/user-attachments/assets/0e1e9c70-77fd-494c-8538-3e6ffb1d22c8)
 
 
-*Justificación profunda de patrones utilizados:*
+Justificación profunda de patrones utilizados:
 
 •	Patrón Adapter:
 
@@ -55,7 +55,7 @@ o	Un Médico tiene una agenda de horarios y atiende turnos.
 o	Las entidades están claramente modeladas para reflejar la lógica del dominio: pagos, usuarios, horarios, y estado de los turnos.
 ##
 
-Diagrama de implementación
+**Diagrama de implementación**
 Imagen:
 ![despliegue](https://github.com/user-attachments/assets/54c9001c-d73d-487d-b66b-499a826aca93)
 
@@ -75,7 +75,7 @@ o	Motor robusto y escalable que almacena todos los datos del sistema, estructura
 o	Facilitan el desacoplamiento con terceros (pagos, notificaciones), permitiendo mayor flexibilidad y modularidad.
 
 ##
-Reflexiones finales del modelado
+**Reflexiones finales del modelado**
 
 Este sistema presenta un modelado estructurado, destacándose por:
 
