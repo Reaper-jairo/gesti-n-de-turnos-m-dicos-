@@ -1,4 +1,4 @@
-*Descripción general del sistema:*
+**Descripción general del sistema:**
 
 El sistema de “Gestión de Turnos Médicos” permite a pacientes, médicos y administradores interactuar de manera organizada para la programación, confirmación y administración de turnos médicos. Además, integra servicios externos para pagos y agendamiento, ofreciendo funcionalidades clave como recordatorios, visualización de historial médico, procesamiento de pagos, sincronización de agendas, y gestión de usuarios y reportes. Su arquitectura orientada a servicios, basada en REST y una estructura multicapa, permite escalabilidad, seguridad y mantenimiento eficiente.
 ##
