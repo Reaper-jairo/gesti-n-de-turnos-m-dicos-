@@ -4,7 +4,7 @@ El sistema de “Gestión de Turnos Médicos” permite a pacientes, médicos y 
 
 Imagen:
 ![caso uso (2)](https://github.com/user-attachments/assets/f99b71c5-d3ed-4ac5-832d-94e033def7b0)
-##
+
 
 *Descripción y justificación de relaciones:*
 
@@ -23,7 +23,7 @@ o	<<include>>: Indica funciones obligatorias dentro de otra (e.g., "Agendar Turn
 o	<<extend>>: Representa funcionalidades opcionales o extendidas según contexto (e.g., "Consultar Turnos" puede extenderse con "Cancelar Turno").
 
 o	Interacción con Sistemas Externos se realiza para sincronizar agendas y procesar pagos, extendiendo así la funcionalidad del sistema central sin recargarlo internamente.
-
+##
 
 *Diagrama de clases*
 Imagen:
