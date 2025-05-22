@@ -6,6 +6,7 @@ Imagen:
 ![caso uso (2)](https://github.com/user-attachments/assets/f99b71c5-d3ed-4ac5-832d-94e033def7b0)
 
 Descripción y justificación de relaciones:
+
 •	Actores principales:
 o	Paciente: Puede registrarse, agendar turnos, cancelar turnos, solicitar recordatorios, consultar historial y realizar pagos.
 o	Médico: Gestiona su agenda, registra y confirma atenciones.
