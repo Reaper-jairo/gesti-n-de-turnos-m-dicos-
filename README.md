@@ -24,15 +24,25 @@ Imagen:
 
 Justificación profunda de patrones utilizados:
 •	Patrón Adapter:
+
 o	Usado en clases como AdaptadorPasarelaPago y AdaptadorNotificaciones para desacoplar la lógica interna del sistema de los servicios externos (pagos, notificaciones por SMS/Email).
+
 o	Facilita la integración con múltiples proveedores mediante una interfaz común.
+
 •	Patrón Singleton:
+
 o	ConfiguracionSistema y el gestor de configuración en la arquitectura aseguran una única instancia global que centraliza parámetros críticos, evitando inconsistencias.
+
 •	Patrón Bridge + Prototype (Notificación):
+
 o	Permite flexibilidad para enviar notificaciones usando distintos medios, desacoplando el canal (Email, SMS) de la lógica de negocio. Además, facilita la clonación de objetos de notificación personalizados.
+
 •	Asociaciones de dominio:
+
 o	Un Paciente puede tener múltiples Turnos.
+
 o	Un Médico tiene una agenda de horarios y atiende turnos.
+
 o	Las entidades están claramente modeladas para reflejar la lógica del dominio: pagos, usuarios, horarios, y estado de los turnos.
 
 Diagrama de implementación
