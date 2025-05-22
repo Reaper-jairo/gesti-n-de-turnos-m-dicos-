@@ -85,6 +85,6 @@ Este sistema presenta un modelado estructurado, destacándose por:
 
 •	La integración con servicios externos está diseñada de manera desacoplada, lo que facilita el cambio de proveedores sin afectar la lógica interna.
 
-Se consideraron aspectos importantes como la notificación a pacientes, la gestión del historial médico y la seguridad de los pagos.
+•Se consideraron aspectos importantes como la notificación a pacientes, la gestión del historial médico y la seguridad de los pagos.
 
 
