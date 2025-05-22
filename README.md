@@ -26,7 +26,7 @@ o	Interacción con Sistemas Externos se realiza para sincronizar agendas y proce
 ##
 
 **Diagrama de clases**
-Imagen:
+**Imagen:**
 ![diagrama clases](https://github.com/user-attachments/assets/0e1e9c70-77fd-494c-8538-3e6ffb1d22c8)
 
 
