@@ -17,6 +17,7 @@ o	<<include>>: Indica funciones obligatorias dentro de otra (e.g., "Agendar Turn
 o	<<extend>>: Representa funcionalidades opcionales o extendidas según contexto (e.g., "Consultar Turnos" puede extenderse con "Cancelar Turno").
 o	Interacción con Sistemas Externos se realiza para sincronizar agendas y procesar pagos, extendiendo así la funcionalidad del sistema central sin recargarlo internamente.
 
+
 Diagrama de clases
 Imagen:
 ![diagrama clases](https://github.com/user-attachments/assets/0e1e9c70-77fd-494c-8538-3e6ffb1d22c8)
@@ -45,6 +46,7 @@ o	Un Paciente puede tener múltiples Turnos.
 o	Un Médico tiene una agenda de horarios y atiende turnos.
 
 o	Las entidades están claramente modeladas para reflejar la lógica del dominio: pagos, usuarios, horarios, y estado de los turnos.
+
 
 Diagrama de implementación
 Imagen:
