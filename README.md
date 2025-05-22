@@ -9,12 +9,19 @@ Imagen:
 Descripción y justificación de relaciones:
 
 •	Actores principales:
+
 o	Paciente: Puede registrarse, agendar turnos, cancelar turnos, solicitar recordatorios, consultar historial y realizar pagos.
+
 o	Médico: Gestiona su agenda, registra y confirma atenciones.
+
 o	Administrador: Administra usuarios, médicos y genera reportes.
+
 •	Relaciones:
+
 o	<<include>>: Indica funciones obligatorias dentro de otra (e.g., "Agendar Turno" incluye "Validar Disponibilidad").
+
 o	<<extend>>: Representa funcionalidades opcionales o extendidas según contexto (e.g., "Consultar Turnos" puede extenderse con "Cancelar Turno").
+
 o	Interacción con Sistemas Externos se realiza para sincronizar agendas y procesar pagos, extendiendo así la funcionalidad del sistema central sin recargarlo internamente.
 
 
