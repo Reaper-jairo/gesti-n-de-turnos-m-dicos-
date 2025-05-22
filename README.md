@@ -23,6 +23,7 @@ Imagen:
 
 
 Justificación profunda de patrones utilizados:
+
 •	Patrón Adapter:
 
 o	Usado en clases como AdaptadorPasarelaPago y AdaptadorNotificaciones para desacoplar la lógica interna del sistema de los servicios externos (pagos, notificaciones por SMS/Email).
