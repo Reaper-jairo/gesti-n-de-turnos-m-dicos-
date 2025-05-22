@@ -78,9 +78,13 @@ o	Facilitan el desacoplamiento con terceros (pagos, notificaciones), permitiendo
 Reflexiones finales del modelado
 
 Este sistema presenta un modelado estructurado, destacándose por:
+
 •	Una separación de responsabilidades clara en los tres niveles: presentación, lógica y datos.
+
 •	El uso de patrones de diseño adecuados, que mejoran la flexibilidad, mantenibilidad y extensibilidad del sistema.
+
 •	La integración con servicios externos está diseñada de manera desacoplada, lo que facilita el cambio de proveedores sin afectar la lógica interna.
+
 Se consideraron aspectos importantes como la notificación a pacientes, la gestión del historial médico y la seguridad de los pagos.
 
 
